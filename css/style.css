@@ -11,6 +11,7 @@ html {
   box-sizing: inherit;
 }
 
+/* @media only screen and (min-width: 1024px) {} */
 body {
   background-color: rgb(17, 77, 77);
   color: black;
@@ -19,6 +20,7 @@ body {
   flex-direction: column;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 section {
   background-color: white;
   width: 280px;
@@ -62,13 +64,13 @@ img {
   padding-bottom: 10px;
 }
 
-#tag-lines {
+#service-lines {
   flex-direction: row;
 }
-#tag-line {
+#service-line1 {
   font-weight: bold;
 }
-#sub-tag-line{
+#service-line2 {
   justify-content: center;
   color: grey;
 }
